@@ -66,4 +66,3 @@ class Server:
         return {'page_size': len(data), 'page': page,
                 'data': data, 'next_page': next_page,
                 'prev_page': prev_page, 'total_pages': int(total_pages)}
-
